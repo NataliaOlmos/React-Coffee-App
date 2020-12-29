@@ -1,0 +1,29 @@
+Button {
+    background-color: #A34960;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: white;
+    border-radius: 5pt;
+    width: 100px;
+    border: transparent;
+    margin: 10px;
+    cursor: pointer;
+    text-shadow: none;
+}
+
+Button :focus Button :hover {
+    background: transparent;
+    border-color: transparent;
+}
+
+.main_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
