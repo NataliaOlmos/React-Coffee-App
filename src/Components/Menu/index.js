@@ -1,12 +1,10 @@
 import React from 'react';
 import CardItem from '../MenuItem';
 import styles from './Menu.module.css'
-import Header from '../Header/index'
 
 function MenuCoffee() {
     return (
         <div className={styles.main_wrapper}>
-            <Header />
             <div className={styles.card_deck}>
                 <CardItem className={styles.card}
                     src='/images/image2.png'

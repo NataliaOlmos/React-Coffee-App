@@ -1,0 +1,13 @@
+.text {
+    color: #0D0D0D;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1pt solid #230b19;
+}
+
+li {
+    margin-bottom: 40px;
+    list-style-type: none;
+}

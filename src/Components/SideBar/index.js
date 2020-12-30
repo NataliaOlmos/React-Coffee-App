@@ -1,10 +1,8 @@
 import React from 'react'
-import { Layout, Menu, Breadcrumb } from 'antd';
+import { Menu } from 'antd';
 import styles from './SideBar.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faClock, faCoffee, faList, faMoneyBill, faSpinner } from '@fortawesome/free-solid-svg-icons'
-const { Header, Content, Footer, Sider } = Layout;
-const { SubMenu } = Menu;
+import { faCoffee, faMoneyBill, faSpinner } from '@fortawesome/free-solid-svg-icons'
 
 function SideBar() {
 
@@ -30,7 +28,7 @@ function SideBar() {
                     Órdenes
                 </Menu.Item>
                 <Menu.Item
-                    key="estatus"
+                    key="states"
                     icon={
                         <FontAwesomeIcon
                             icon={faSpinner}
@@ -41,7 +39,7 @@ function SideBar() {
                     Estatus
                     </Menu.Item>
                 <Menu.Item
-                    key="estatus"
+                    key="bill"
                     icon={
                         <FontAwesomeIcon
                             icon={faMoneyBill}

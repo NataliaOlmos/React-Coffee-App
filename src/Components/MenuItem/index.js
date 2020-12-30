@@ -1,8 +1,9 @@
 import React from 'react';
-import { Card, Button, Input } from 'antd';
+import { Card, Button, Input, Menu } from 'antd';
 import styles from './MenuItem.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrash } from '@fortawesome/free-solid-svg-icons'
+import MenuCoffee from '../Menu';
 
 function CardItem(props) {
     return (
@@ -25,6 +26,7 @@ function CardItem(props) {
                     icon={faTrash}
                 />
             </span>
+
         </div>
     )
 }
