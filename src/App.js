@@ -7,18 +7,25 @@ import {
   Link
 } from "react-router-dom";
 import SplitScreen from './Components/Landing/index';
-import Orders from './Components/Orders';
+import OrdersKitchen from './Components/OrdersKitchen';
+import OrdersTable from './Components/OrdersTables';
+import MenuCoffee from './Components/Menu';
 
 function App() {
   return (
     <Router>
-
       <Switch>
         <Route exact path="/">
           <SplitScreen />
         </Route>
-        <Route path="/orders">
-          <Orders />
+        <Route path="/orders-kitchen">
+          <OrdersKitchen />
+        </Route>
+        <Route path="/orders-tables">
+          <OrdersTable />
+        </Route>
+        <Route path="/menu">
+          <MenuCoffee />
         </Route>
       </Switch>
     </Router>

@@ -1,0 +1,12 @@
+.main_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #0D0D0D;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+}

@@ -11,6 +11,7 @@ function UserAccess() {
             <div className={styles.container}>
                 <Button>Cocina</Button>
                 <Button>Mesas y Órdenes</Button>
+                <Button>Menú</Button>
             </div>
         </div>
     )

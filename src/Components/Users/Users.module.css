@@ -21,6 +21,7 @@ Button :focus Button :hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: #0D0D0D;
 }
 
 .container {
