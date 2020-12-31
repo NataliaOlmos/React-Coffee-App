@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { Menu } from 'antd';
 import styles from './SideBar.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -10,7 +11,7 @@ function SideBar() {
     return (
         <div className={styles.sidebar}>
             <div className={styles.sidebar__logo}>
-                Hello Kitty Coffee
+                <Link to='/'>Hello Kitty Café</Link>
             </div>
             <Menu
                 className={styles.sidemenu}

@@ -1,21 +1,3 @@
-Button {
-    background-color: #A34960;
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    color: white;
-    border-radius: 5pt;
-    width: 100px;
-    border: transparent;
-    margin: 10px;
-    cursor: pointer;
-    text-shadow: none;
-}
-
-Button :focus Button :hover {
-    background: transparent;
-    border-color: transparent;
-}
-
 .main_wrapper {
     display: flex;
     align-items: center;
@@ -27,4 +9,14 @@ Button :focus Button :hover {
 .container {
     display: flex;
     justify-content: space-around;
+}
+
+.container a {
+    color: white !important;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px !important;
+    background-color: #A34960;
+    border-radius: 5pt;
+    margin: 5px;
 }

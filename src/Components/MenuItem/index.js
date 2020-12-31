@@ -8,7 +8,6 @@ import MenuCoffee from '../Menu';
 function CardItem(props) {
     return (
         <div className="site-card-wrapper">
-
             <Card className={styles.main_wrapper} data-category={props.label} >
                 <img className={styles.card} src={props.src} alt="Menu" />
                 <h5 className={styles.text}>{props.text}</h5>

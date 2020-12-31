@@ -1,0 +1,76 @@
+/*------------------------------------*\
+  #SECTION-CARDS
+\*------------------------------------*/
+
+.card {
+    background-color: #fff;
+    flex: 1;
+    box-shadow: 0px 8px 8px rgba(204, 204, 204, 0.25);
+    border-radius: 4px;
+    padding: 16px 24px;
+    margin: 0 4px var(--space-lg) 4px;
+}
+
+.card__title {
+    font-family: 'AvenirRoman';
+    font-weight: bold;
+    font-size: var(--font-md);
+    color: var(--textColor);
+}
+
+.card__subtitle {
+    color: var(--textColor);
+    margin-bottom: var(--space-lg);
+}
+
+.card__text {
+    color: var(--textColor);
+}
+
+.card__text__mark {
+    color: var(--primary);
+}
+
+.card__btn__link span {
+    color: var(--blueAnt);
+    text-decoration: underline;
+}
+
+.card__btn__link:disabled span {
+    color: var(--silver);
+    cursor: not-allowed;
+}
+
+.card__ticket__footer {
+    width: 100%;
+    text-align: end;
+    margin-top: var(--space-sm);
+    color: var(--coal);
+}
+
+.card__ticket__footer__money {
+    margin-left: var(--space-lg);
+    color: var(--jet);
+}
+
+/*------------------------------------*\
+          #SECTION-CARD-TABLE
+  \*------------------------------------*/
+
+.card__table__responsive thead tr th {
+    background-color: var(--gainsboro) !important;
+    font-weight: bold;
+    padding: 0px;
+    height: 44px;
+    font-size: 12px;
+    text-align: center;
+    border-top: 1px solid rgba(196, 196, 196, 0.4);
+    border-bottom: 1px solid rgba(196, 196, 196, 0.4);
+}
+
+.card__table__responsive tbody tr td {
+    padding: 0px !important;
+    height: 40px;
+    font-size: 14px;
+    text-align: center;
+}

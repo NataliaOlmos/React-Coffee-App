@@ -1,10 +1,11 @@
 import React from 'react';
 import CardItem from '../MenuItem';
 import styles from './Menu.module.css'
-
+import { Link } from 'react-router-dom';
 function MenuCoffee() {
     return (
         <div className={styles.main_wrapper}>
+            <Link className={styles.aLink} to='/'>Hello Kitty Café</Link>
             <div className={styles.card_deck}>
                 <CardItem className={styles.card}
                     src='/images/image2.png'

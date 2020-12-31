@@ -4,6 +4,7 @@ import UserAccess from '../Users';
 import styles from './LandingPage.module.css'
 
 function SplitScreen() {
+
     return (
         <div className={styles.sign}>
             <div style={{ backgroundImage: `url(${coffeeImage})` }} className={styles.sign__left} />
